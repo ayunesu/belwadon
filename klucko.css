@@ -3,13 +3,22 @@ body {
         background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: 1920px 1080px;
+	background-size: cover;
 	margin: 30px;
 	width: 100%;
 	height: auto;
 }
 
 @media only screen and (max-width: 600px) {
+   body {
+	background-image: url("	https://cdn.discordapp.com/attachments/1031234561880903791/1031234832665170070/UE4B7e25C37NDmjlYBQ4--1--nht7u_15.625x.jpg");
+        background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 30px;
+	width: 100%;
+	height: auto;	
+   }
    #doboz {
 	   width: 100%;
 	   height: auto;
