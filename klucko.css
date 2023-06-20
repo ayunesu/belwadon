@@ -6,6 +6,15 @@ body {
 	margin: 30px;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("https://cdn.discordapp.com/attachments/1031234561880903791/1031234832665170070/UE4B7e25C37NDmjlYBQ4--1--nht7u_15.625x.jpg");
+	  background-position: center;
+	  background-attachment: fixed;
+	  background-size: 100%;
+  }
+}
+
 #doboz {
 	background: rgba(25, 25, 25, 0.7);
 	opacity: 0.9;
