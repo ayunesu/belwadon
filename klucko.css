@@ -1,9 +1,9 @@
 body {
 	background-image: url("	https://cdn.discordapp.com/attachments/1031234561880903791/1031234832665170070/UE4B7e25C37NDmjlYBQ4--1--nht7u_15.625x.jpg");
-        background-position: center;
+    background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 1920px 1080px;
 	margin: 30px;
 	width: 100%;
 	height: auto;
@@ -62,11 +62,11 @@ body {
 .desc {
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 24px;
-	color:#4a1c1c;
+	color: #283e39;
 	margin-top: -8px;
 	padding-left: 1px;
 	text-align: center;
-	text-shadow: 2px 2px 4px  rgb(40, 10, 10);
+	text-shadow: 2px 2px 4px #141f1c;
 }
 
 .desc2 {
@@ -78,7 +78,7 @@ body {
 	text-align: center;
 }
 
-.smoltext {
+.smolText {
 	color: #737373;
 	font-family: 'Darker Grotesque', sans-serif;
 }
@@ -113,17 +113,21 @@ body {
 
 .campaign {
 	background: rgba(10, 10, 10, 0.7);
-	padding-borrom: 2px;
 	margin-top: 20px;
 	border-radius: 15px;
 	text-align: center;
+	font-size: 18px;
 	color: #737373;
 }
 
 #chardoboz {
-	margin-bottom: 50px;
+	background-color: #141f1c;
+	opacity: 0.7;
+	margin-bottom: 20px;
+	padding: 3px 10px 55px 10px;
 	position: relative;
 	text-align: center;
+	border-radius: 15px;
 }
 
 #chardoboz .karakterek {
@@ -141,7 +145,7 @@ body {
 	object-fit: cover;
 	width: 120px;
 	height: 150px;
-	border-radius: 100px;
+	border-radius: 95px;
 	margin: 5px;
 	 filter: grayscale(100%);
 	 opacity: 1;
@@ -154,24 +158,44 @@ body {
  
 .karakterek .tooltiptext2 {
   font-family: 'Cinzel', serif;
-  color: #737373;
+  color: #ffffff;
   font-size: 11px;
   visibility: hidden;
   width: 125px;
-  background: rgb(50, 20, 20);
-  color: #fff;
+  background-color: #283e39;
   text-align: center;
   position: absolute;
   z-index: 1;
   top: 100%;
   left: 50%;
   margin-left: -70px;
-  padding: 10px;
+  padding: 3px 10px 3px 10px;
   border-radius: 6px;
  }
  
 .karakterek:hover .tooltiptext2 {
   visibility: visible;
+}
+
+.adventureLog a {
+	color: #ffffff;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding: 7px 10px 8px 10px;
+	position: relative;
+	top: 27px;
+	border: 2px solid #ffffff;
+	border-radius: 15px;
+	width: 140px;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+.adventureLog a:hover {
+	background-color: rgb( 100, 100, 100, 0.4);
 }
 
 #navbar {
@@ -190,7 +214,7 @@ li {
   display: inline;
 }
 
-.navbaricon {
+.navbarIcon {
 	margin-top: 10px;
 	width: 60px;
 	opacity: 0.8;
@@ -218,14 +242,15 @@ display: inline
   transform: translate(-50%, -50%);
   visibility: hidden;
   background: rgb(20, 20, 20);
-  padding: 5px 10px 5px 10px;
+  padding: 4px 12px 6px 12px;
   border-radius: 6px;
   font-family: 'Darker Grotesque', sans-serif;
   color: #669980;
   font-size: 14px;
+  letter-spacing: 2px;
  }
  
- a:hover .navbaricon{
+ a:hover .navbarIcon{
 	opacity: 0.35;
 	transition: opacity 0.2s;
 }
@@ -233,4 +258,17 @@ display: inline
 .container:hover .tooltiptext{
 	visibility: visible;
 	opacity: 1;
+}
+
+#toppage {
+  margin-left: 300px;
+  margin-top: 5px;
+  width: 40px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+#toppage:hover {
+  opacity: 0.4;
+  transition: opacity 0.2s;
 }
