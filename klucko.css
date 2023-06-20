@@ -9,6 +9,13 @@ body {
 	height: auto;
 }
 
+@media only screen and (max-width: 600px) {
+   #doboz {
+	   width: 100%;
+	   height: auto;
+   }
+}
+
 #doboz {
 	background: rgba(25, 25, 25, 0.7);
 	opacity: 0.9;
