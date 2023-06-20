@@ -9,14 +9,6 @@ body {
 	height: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-  }
-   #doboz {
-	   width: 120%;
-	   height: auto;
-}
-
 #doboz {
 	background: rgba(25, 25, 25, 0.7);
 	opacity: 0.9;
@@ -53,11 +45,11 @@ body {
 .desc {
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 24px;
-	color:rgb(80, 50, 50);
+	color:#4a1c1c;
 	margin-top: -8px;
 	padding-left: 1px;
 	text-align: center;
-	text-shadow: 2px 2px 4px  rgb(50, 20, 20);
+	text-shadow: 2px 2px 4px  rgb(40, 10, 10);
 }
 
 .desc2 {
