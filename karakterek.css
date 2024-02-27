@@ -11,16 +11,32 @@
 	text-align: left;
 	left: 35px;
 }
-.backstory {
-  display: none;
+.collapsible {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;  
+  opacity: 0.2;
+  color: white;
+  cursor: pointer;
+  width: 20%;
+  float: right;
+  text-align: center;
+  outline: none;
+  font-size: 22px;
 }
 
-.backstory h4 {
-  margin-top: 10px;
+.active, .collapsible:hover {
+  background-color: #555;
 }
 
-.character-row.active .backstory {
-  display: block;
+.content {
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: transparent;
+  width: 100%;
 }
 
 .charImg {
@@ -49,6 +65,7 @@ table .name {
 th, td {
   border-bottom: 1px solid #737373;
   height: 70px;
+  position: relative;
 }
 
 tr {
@@ -58,4 +75,4 @@ tr {
 	color: #737373;
 	text-align: left;
 	padding: 10px 50px 10px, 10px;
-}
+	position: float;

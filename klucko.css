@@ -1,5 +1,5 @@
 body {
-	background-image: url("	https://cdn.discordapp.com/attachments/1031234561880903791/1031234832665170070/UE4B7e25C37NDmjlYBQ4--1--nht7u_15.625x.jpg");
+	background-image: url("https://images.nightcafe.studio/jobs/53FAJ3c2MVjzCweSt5lB/53FAJ3c2MVjzCweSt5lB--3--rc8uu_4x.jpg?tr=w-1600,c-at_max");
     background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -28,11 +28,10 @@ body {
 
 #doboz {
 	background: rgba(25, 25, 25, 0.7);
-	opacity: 0.9;
+	opacity: 1;
 	margin: auto;
 	padding: 20px;
-    width:700px;
-	max-width: 700px;
+    width: 800px;
     height: auto;
     border-radius:15px;
 	box-shadow: 0 6px 15px #000000;
@@ -62,11 +61,11 @@ body {
 .desc {
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 24px;
-	color: #283e39;
+	color: 	#2f0404;
 	margin-top: -8px;
 	padding-left: 1px;
 	text-align: center;
-	text-shadow: 2px 2px 4px #141f1c;
+	text-shadow: 2px 2px 4px 0;
 }
 
 .desc2 {
@@ -81,6 +80,18 @@ body {
 .smolText {
 	color: #737373;
 	font-family: 'Darker Grotesque', sans-serif;
+	text-align: justify;
+}
+.smolTextI {
+	color: #737373;
+	font-family: 'Darker Grotesque', sans-serif;
+}
+
+.smolTextI::first-letter {
+	-webkit-initial-letter: 2.2;
+	initial-letter: 2.2;
+	font-family: 'Berkshire Swash', cursive;
+margin-top: -5px;
 }
 
 #line {
@@ -97,6 +108,8 @@ body {
 	border-radius: 15px;
 	text-align: center;
 	color: #737373;
+	height: 550px;
+	overflow: auto;
 }
 
 #lore:hover {
@@ -109,6 +122,33 @@ body {
 	initial-letter: 2.2;
 	font-family: 'Berkshire Swash', cursive;
 	margin-top: -5px;
+}
+
+.cover {
+	width:200px;
+	padding:12px;
+	opacity: 0.6;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #669980;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  #334d40;
 }
 
 .campaign {
@@ -261,11 +301,13 @@ display: inline
 }
 
 #toppage {
-  margin-left: 300px;
+	filter: invert(80%);
+  margin-left: 45%;
   margin-top: 5px;
   width: 40px;
   cursor: pointer;
   padding: 15px;
+  opacity: 0.7;
 }
 
 #toppage:hover {
